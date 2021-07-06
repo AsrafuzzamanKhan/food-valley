@@ -9,6 +9,7 @@ section.top-header h1{
 
 section.head-container{
     display: flex;
+    background-color: white;
 }
 .head-container p{
     margin-bottom: 20px;
@@ -19,6 +20,7 @@ span.color {
 }
 .half-width{
     width: 50%;
+    
     padding: 2% 5% 2% 5%;
     
 }
