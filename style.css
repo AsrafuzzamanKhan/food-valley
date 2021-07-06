@@ -1,0 +1,107 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+section.top-header h1{
+    text-align: center;
+    margin: 0px;
+}
+
+section.head-container{
+    display: flex;
+}
+.head-container p{
+    margin-bottom: 20px;
+}
+span.color {
+    color: #1E90FF;
+    font-size: 40px;
+}
+.half-width{
+    width: 50%;
+    padding: 2% 5% 2% 5%;
+    
+}
+.half-width p{
+    text-align: justify;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+section.menu ul{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+}
+section.menu ul li{
+    display: inline-block;
+    padding: 15px 50px;
+    color: black;
+    font-size: 20px;
+    
+
+}
+section.menu ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+section.popular{
+    display: flex;
+    background-color: rgba(158, 236, 236, 0.486);
+    background-position: center;
+    background-size: cover;
+}
+section.m-card{
+    display: flex;
+    padding: 5%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  margin-left: 20px;
+  padding: 15px 15px 30px 15px;
+  border-radius: 15px;
+  margin-bottom: -80px;
+  margin: 0px 40px -50px 40px;
+}
+.card p{
+    text-align: justify;
+}
+section.m-card2{
+    display: flex;
+    padding: 5%;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+a.button {
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(74, 74, 151), cyan);
+}
+section.count ul li{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 15px 50px;
+    
+}
+section.count ul{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    margin: 70px 200px 50px 200px;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 20px 0px;
+}
