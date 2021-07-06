@@ -9,20 +9,17 @@ section.top-header h1{
 
 section.head-container{
     display: flex;
-    background-color: white;
+    padding: 5%;
 }
 .head-container p{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 span.color {
     color: #1E90FF;
     font-size: 40px;
 }
 .half-width{
-    width: 50%;
-    
-    padding: 2% 5% 2% 5%;
-    
+    width: 50%;  
 }
 .half-width p{
     text-align: justify;
@@ -30,6 +27,7 @@ span.color {
 
 .half-width img{
     width: 100%;
+    border-radius: 25px;
 }
 
 section.menu ul{
@@ -52,9 +50,11 @@ section.menu ul li a{
 }
 section.popular{
     display: flex;
-    background-color: rgba(158, 236, 236, 0.486);
-    background-position: center;
+    padding: 3%;
+    background-image: url(/img/Frame\ 57.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    
 }
 section.m-card{
     display: flex;
@@ -63,10 +63,8 @@ section.m-card{
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   width: 40%;
-  margin-left: 20px;
   padding: 15px 15px 30px 15px;
   border-radius: 15px;
-  margin-bottom: -80px;
   margin: 0px 40px -50px 40px;
 }
 .card p{
